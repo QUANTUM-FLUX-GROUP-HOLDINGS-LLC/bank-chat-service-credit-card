@@ -1,0 +1,22 @@
+# CODEOWNERS - Card Products Services
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Equipo de Card Products (required)
+* @your-github-username
+
+# Kotlin Services
+/src/main/kotlin/ @your-github-username
+
+# Gateway Integrations (Visa/Mastercard)
+/gateway/ @your-github-username
+
+# Scoring & Risk
+/scoring/ @your-github-username
+
+# Entity & DTOs
+/entity/ @your-github-username
+/dto/ @your-github-username
+
+# PCI-DSS Related
+/tokenization/ @your-github-username
+*/pin/* @your-github-username
